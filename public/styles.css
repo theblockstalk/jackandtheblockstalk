@@ -1,6 +1,6 @@
-body {
+/*body {
   padding-top: 100px;
-}
+}*/
 .dapp-text {
   font-size: 150%;
 }
@@ -19,3 +19,6 @@ nav {
 .nav li{
     padding-right:5px;
    }
+.light_text {
+  color: grey;
+}
