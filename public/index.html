@@ -17,26 +17,31 @@
     <script src="lib/bootstrap-select-1.12.4-dist/js/bootstrap-select.min.js"></script>
 
     <!-- Custom javascript and CSS scripts -->
+    <script src="lib/sha256.js"></script>
     <script src="app.js"></script>
     <link href="styles.css" rel="stylesheet">
 
   </head>
-  <body id="page-top">
+  <body id="page-top" onload="blockchain()">
 
-    <div class="container-fluid top-text" align="center">
-      <h1><b>Jack Tanner</b></h1>
-      <h2><b>Blockchain Developer and Cryptocurrency Specialist</b></h2>
-      <h2><b>Project Manager and Startup Enthusiast</b></h2>
-      <h2><br></h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-2">
+          <div class="panel panel-default block-main">
+            <div class="panel-body" align="center">
+              <h1 style="font-color:red;"><b>Jack Tanner</b></h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="app" class="container-fluid">
-        <!-- <div class="row col-centered"> -->
-        <div class="container-fluid">
-          <!-- <div class="col-xs-1 vcenter">
-          </div> -->
-          <div class="col-sm-3 vcenter">
-            <div id="block1" class="panel panel-default block-main">
+        <div class="row">
+          <div class="col-md-4">
+            <div id="block1" class="panel panel-default block-main" style="display:none;">
 
               <div class="panel-body">
                 <span class="light-text">BLOCK HEADER</span>
@@ -44,9 +49,9 @@
                   <div class="panel-body">
                     <h2 align="center">Find me</h2>
                     <span class="light-text">
-                      Previous Hash: 00000cbf5ae2fq2a
+                      Previous Hash: <span class="prev-hash">00000cbf5ae2fq2a</span>
                       <br>
-                      Nonce: 00232
+                      Nonce: <span class="nonce">00000</span>
                     <span>
                   </div>
                 </div>
@@ -57,12 +62,36 @@
                 <div class="panel panel-default block-section">
                   <div class="panel-body" align="center">
                     <h4><a href="mailto:jack@jackandtheblockstalk.com">jack@jackandtheblockstalk.com</a></h4>
-                    <h4>Ethereum: "jackandtheblockstalk.eth"</h4>
+                    <h4>Ethereum: <a href="https://etherscan.io/enslookup?q=jackandtheblockstalk.eth" target="blank">jackandtheblockstalk.eth</a></h4>
                     <div align="center">
-                      <a href="https://www.linkedin.com/in/jack-tanner/"><img src="img/linkedin-logo.png" style="height:60px;"></a>
-                      <a href="https://github.com/ugmo04"><img src="img/github-logo.png" style="height:60px;"></a>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="row">
+                            <a href="https://www.linkedin.com/in/jack-tanner/" target="blank"><img src="img/linkedin-logo.png" style="height:60px;"></a>
+                          </div>
+                          <div class="row">
+                            <h5><a href="https://www.linkedin.com/in/jack-tanner/" target="blank">LinkedIn</a></h5>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="row">
+                            <a href="https://github.com/ugmo04" target="blank"><img src="img/github-logo.png" style="height:60px;"></a>
+                          </div>
+                          <div class="row">
+                            <h5><a href="https://github.com/ugmo04" target="blank">Github</a></h5>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="row">
+                            <a href="https://medium.com/@ugmo04" target="blank"><img src="img/medium-logo.png" style="height:60px;"></a>
+                          </div>
+                          <div class="row">
+                            <h5><a href="https://medium.com/@ugmo04" target="blank">Blog</a></h5>
+                          </div>
+                        </div>
+                      </div>
                     </div >
-                    <h4><br></h4>
+                    <!-- <h4><br></h4> -->
                     <h6><br></h6>
                   </div>
                 </div>
@@ -72,18 +101,18 @@
                 <span class="light-text">FINAL HASH</span>
                 <div class="panel panel-default block-section">
                   <div class="panel-body">
-                    <span class="light-text">Hash: 000007114c3a287</span>
+                    <span class="light-text">Hash: <span class="final-hash">000007114c3a287</span></span>
                   </div>
                 </div>
               </div>
 
             </div>
           </div>
-          <div class="col-sm-1 vcenter" align="center">
+          <!-- <div class="col-sm-1 vcenter" align="center">
             <img src="http://www.clker.com/cliparts/6/k/K/P/5/Z/plain-left-white-arrow-hi.png" width="100%">
-          </div>
-          <div class="col-sm-3 vcenter">
-            <div id="block2" class="panel panel-default block-main">
+          </div> -->
+          <div class="col-md-4">
+            <div id="block2" class="panel panel-default block-main" style="display:none;">
 
               <div class="panel-body">
                 <span class="light-text">BLOCK HEADER</span>
@@ -125,11 +154,11 @@
 
             </div>
           </div>
-          <div class="col-sm-1 vcenter">
+          <!-- <div class="col-sm-1 vcenter">
             <img class="img-responsive" src="http://www.clker.com/cliparts/6/k/K/P/5/Z/plain-left-white-arrow-hi.png" width="100%">
-          </div>
-          <div class="col-sm-3 vcenter">
-            <div id="block3" class="panel panel-default block-main">
+          </div> -->
+          <div class="col-md-4">
+            <div id="block3" class="panel panel-default block-main" style="display:none;">
 
               <div class="panel-body">
                 <span class="light-text">BLOCK HEADER</span>
@@ -154,7 +183,7 @@
                     <h4>Workshops</h4>
                     <h4>Cryptocurrency Consulting</h4>
                     <h4>Blockchain Research</h4>
-                    <h4><br></h4>
+                    <h4>Project Management</h4>
                   </div>
                 </div>
               </div>
