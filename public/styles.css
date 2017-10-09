@@ -24,10 +24,22 @@ body {
 }
 .block-main {
   background-color: rgba(255,255,255,0.8);
-  border-color: rgba(255,255,255,6.0);
+  border-color: rgba(255,255,255,1.0);
   border-width: 10px;
   border-radius:30px;
 }
+/*.valid-block {
+  border-color: rgba(153,255,153,0.6);
+}
+.invalid-block {
+  border-color: rgba(255,153,153,0.6);
+}*/
 .block-section {
   background-color: rgba(255,255,255,0.6);
+}
+.top-heading {
+  background-color: rgba(255,255,255,0.8);
+  border-color: rgba(255,255,255,6.0);
+  border-width: 1px;
+  border-radius: 100px;
 }
