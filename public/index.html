@@ -1,36 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jack Tanner</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- Facebook Open Graph Information -->
+    <meta property='og:title' content='Jack Tanner | Blockchain Developer and Cryptocurrency Specialist'>
+    <meta property='og:type' content='website'>
+    <meta property='og:url' content='https://jackandtheblockstalk.com/'>
+    <meta property='og:image' content="https://jackandtheblockstalk.com/img/jack-tanner.jpg">
+    <meta property='og:description' content="My personal blockchain information website. Contact me, find my blogs and discover what I work on.">
+
+    <!-- Google Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://jackandtheblockstalk.com/",
+      "@type": "Website",
+      "name": "Jack Tanner | Blockchain Developer and Cryptocurrency Specialist",
+      "author": "Jack Tanner",
+      "image": "https://jackandtheblockstalk.com/img/jack-tanner.jpg",
+      "description": "My personal blockchain information website. Contact me, find my blogs and discover what I work on.",
+    }
+    </script>
+
+    <title>Jack Tanner | Blockchain Developer and Cryptocurrency Specialist</title>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="lib/jquery-3.2.1.min.js"></script>
+    <script src='lib/jquery-3.2.1.min.js'></script>
 
     <!-- Bootstrap -->
-    <link href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link href='lib/bootstrap-3.3.7-dist/css/bootstrap.min.css' rel='stylesheet'>
+    <script src='lib/bootstrap-3.3.7-dist/js/bootstrap.min.js'></script>
 
     <!-- Bootstrap select -->
-    <link rel="stylesheet" href="lib/bootstrap-select-1.12.4-dist/css/bootstrap-select.min.css">
-    <script src="lib/bootstrap-select-1.12.4-dist/js/bootstrap-select.min.js"></script>
+    <link rel='stylesheet' href='lib/bootstrap-select-1.12.4-dist/css/bootstrap-select.min.css'>
+    <script src='lib/bootstrap-select-1.12.4-dist/js/bootstrap-select.min.js'></script>
 
     <!-- Custom javascript and CSS scripts -->
-    <script src="lib/sha256.js"></script>
-    <script src="app.js"></script>
-    <link href="styles.css" rel="stylesheet">
+    <script src='lib/sha256.js'></script>
+    <script src='app.js'></script>
+    <link href='styles.css' rel='stylesheet'>
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107852416-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-107852416-1');
+    </script>
+
 
   </head>
-  <body id="page-top" onload="blockchain()">
+  <body id='page-top' onload='blockchain()'>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-5">
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='col-md-5'>
         </div>
-        <div class="col-md-2">
-          <div class="panel panel-default top-heading">
-            <div class="panel-body" align="center">
+        <div class='col-md-2'>
+          <div class='panel panel-default top-heading'>
+            <div class='panel-body' align='center'>
               <h1><b>Jack Tanner</b></h1>
             </div>
           </div>
@@ -38,27 +69,28 @@
       </div>
     </div>
 
-    <div id="app" class="container-fluid">
-        <div class="row">
-          <div class="col-md-4">
-            <div id="block0" class="panel panel-default block-main" style="display:none;">
+    <div id='app' class='container-fluid'>
+        <div class='row'>
 
-              <div class="panel-body">
-                <span class="light-text">BLOCK HEADER</span>
-                <div class="panel panel-default block-section">
-                  <div class="panel-body block-title-box">
+          <div class='col-md-4'>
+            <div id='block0' class='panel panel-default block-main' style='display:none;'>
+
+              <div class='panel-body'>
+                <span class='light-text'>BLOCK HEADER</span>
+                <div class='panel panel-default block-section'>
+                  <div class='panel-body block-title-box'>
                     <div class='box-title'>
-                      <h2 align="center"><br></h2>
+                      <h2 align='center'><br></h2>
                     </div>
                     <span><br><br><br></span>
                   </div>
                 </div>
               </div>
 
-              <div class="panel-body">
-                <span class="light-text">TRANSACTIONS</span>
-                <div class="panel panel-default block-section">
-                  <div class="panel-body block-body-box" align="center">
+              <div class='panel-body'>
+                <span class='light-text'>TRANSACTIONS</span>
+                <div class='panel panel-default block-section'>
+                  <div class='panel-body block-body-box' align='center'>
                     <h4><br></h4>
                     <h4><br></h4>
                     <h4><br></h4>
@@ -69,10 +101,10 @@
                 </div>
               </div>
 
-              <div class="panel-body">
-                <span class="light-text">FINAL HASH</span>
-                <div class="panel panel-default block-section">
-                  <div class="panel-body block-final-box">
+              <div class='panel-body'>
+                <span class='light-text'>FINAL HASH</span>
+                <div class='panel panel-default block-section'>
+                  <div class='panel-body block-final-box'>
                     <br>
                   </div>
                 </div>
@@ -81,25 +113,25 @@
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div id="block1" class="panel panel-default block-main" style="display:none;">
+          <div class='col-md-4'>
+            <div id='block1' class='panel panel-default block-main' style='display:none;'>
 
-              <div class="panel-body">
-                <span class="light-text">BLOCK HEADER</span>
-                <div class="panel panel-default block-section">
-                  <div class="panel-body block-title-box">
+              <div class='panel-body'>
+                <span class='light-text'>BLOCK HEADER</span>
+                <div class='panel panel-default block-section'>
+                  <div class='panel-body block-title-box'>
                     <div class='box-title'>
-                      <h2 align="center"><br></h2>
+                      <h2 align='center'><br></h2>
                     </div>
                     <span><br><br><br></span>
                   </div>
                 </div>
               </div>
 
-              <div class="panel-body">
-                <span class="light-text">TRANSACTIONS</span>
-                <div class="panel panel-default block-section">
-                  <div class="panel-body block-body-box" align="center">
+              <div class='panel-body'>
+                <span class='light-text'>TRANSACTIONS</span>
+                <div class='panel panel-default block-section'>
+                  <div class='panel-body block-body-box' align='center'>
                     <h4><br></h4>
                     <h4><br></h4>
                     <h4><br></h4>
@@ -110,10 +142,10 @@
                 </div>
               </div>
 
-              <div class="panel-body">
-                <span class="light-text">FINAL HASH</span>
-                <div class="panel panel-default block-section">
-                  <div class="panel-body block-final-box">
+              <div class='panel-body'>
+                <span class='light-text'>FINAL HASH</span>
+                <div class='panel panel-default block-section'>
+                  <div class='panel-body block-final-box'>
                     <br>
                   </div>
                 </div>
@@ -122,25 +154,25 @@
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div id="block2" class="panel panel-default block-main" style="display:none;">
+          <div class='col-md-4'>
+            <div id='block2' class='panel panel-default block-main' style='display:none;'>
 
-              <div class="panel-body">
-                <span class="light-text">BLOCK HEADER</span>
-                <div class="panel panel-default block-section">
-                  <div class="panel-body block-title-box">
+              <div class='panel-body'>
+                <span class='light-text'>BLOCK HEADER</span>
+                <div class='panel panel-default block-section'>
+                  <div class='panel-body block-title-box'>
                     <div class='box-title'>
-                      <h2 align="center"><br></h2>
+                      <h2 align='center'><br></h2>
                     </div>
                     <span><br><br><br></span>
                   </div>
                 </div>
               </div>
 
-              <div class="panel-body">
-                <span class="light-text">TRANSACTIONS</span>
-                <div class="panel panel-default block-section">
-                  <div class="panel-body block-body-box" align="center">
+              <div class='panel-body'>
+                <span class='light-text'>TRANSACTIONS</span>
+                <div class='panel panel-default block-section'>
+                  <div class='panel-body block-body-box' align='center'>
                     <h4><br></h4>
                     <h4><br></h4>
                     <h4><br></h4>
@@ -151,10 +183,10 @@
                 </div>
               </div>
 
-              <div class="panel-body">
-                <span class="light-text">FINAL HASH</span>
-                <div class="panel panel-default block-section">
-                  <div class="panel-body block-final-box">
+              <div class='panel-body'>
+                <span class='light-text'>FINAL HASH</span>
+                <div class='panel panel-default block-section'>
+                  <div class='panel-body block-final-box'>
                     <br>
                   </div>
                 </div>
@@ -162,17 +194,9 @@
 
             </div>
           </div>
-
-
 
         </div>
 
-
       </div>
-
-      <div class="container">
-        <div class="alert alert-warning" role="alert" align="center">Website construction still in progress...</div>
-      </div>
-
 
   </body>
