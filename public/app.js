@@ -34,7 +34,7 @@ const BLOCK1_BODY = "<h4><a href='mailto:jack@jackandtheblockstalk.com'>jack@jac
 
 const BLOCK2_BODY = "<h4>Senior Software Engineer, <a href='https://indorse.io/' target='blank'>Indorse</a></h4>\
   <h4>Colaborator, <a href='https://www.theblockchainconnector.com/' target='blank'>The Blockchain Connector</a></h4>\
-  <h4><br></h4>\
+  <h4>Blockchain Technical Advisor, <a href='https://rockchain.com/' target='blank'>Rockchain</a></h4>\
   <h4><br></h4>\
   <h4><br></h4>\
   <h4><br></h4>";
