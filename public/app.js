@@ -13,10 +13,10 @@ const BLOCK1_BODY = "<h4><a href='mailto:jack@jackandtheblockstalk.com'>jack@jac
       </div>\
       <div class='col-md-4'>\
         <div class='row'>\
-          <a href='https://github.com/ugmo04' target='blank'><img src='img/github-logo.png' style='height:60px;'></a>\
+          <a href='https://github.com/jackandtheblockstalk' target='blank'><img src='img/github-logo.png' style='height:60px;'></a>\
         </div>\
         <div class='row'>\
-          <h5><a href='https://github.com/ugmo04' target='blank'>Github</a></h5>\
+          <h5><a href='https://github.com/jackandtheblockstalk' target='blank'>Github</a></h5>\
         </div>\
       </div>\
       <div class='col-md-4'>\
@@ -34,9 +34,9 @@ const BLOCK1_BODY = "<h4><a href='mailto:jack@jackandtheblockstalk.com'>jack@jac
 
 const BLOCK2_BODY = "<h4>Senior Software Engineer, <a href='https://indorse.io/' target='blank'>Indorse</a></h4>\
   <h4>Colaborator, <a href='https://www.theblockchainconnector.com/' target='blank'>The Blockchain Connector</a></h4>\
-  <h4>Blockchain Technical Advisor, <a href='https://rockchain.com/' target='blank'>Rockchain</a></h4>\
-  <h4><br></h4>\
-  <h4><br></h4>\
+  <h4>Blockchain Consultant, <a href='https://rockchain.com/' target='blank'>Rockchain</a></h4>\
+  <h4>Blockchain Consultant, <a href='https://avancehub.com/' target='blank'>AvanceHub</a></h4>\
+  <h4>Creator, <a href='https://intercrypto.org' target='blank'>InterCrypto</a></h4>\
   <h4><br></h4>";
 
 const BLOCK3_BODY = "<h4>Smart Contract Development</h4>\
