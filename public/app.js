@@ -1,6 +1,6 @@
 
 const BLOCK1_BODY = "<h4><a href='mailto:jack@jackandtheblockstalk.com'>jack@jackandtheblockstalk.com</a></h4>\
-  <h4>Ethereum: <a href='https://etherscan.io/enslookup?q=jackandtheblockstalk.eth' target='blank'>jackandtheblockstalk.eth</a></h4>\
+  <h4>Ethereum: <a href='https://etherscan.io/address/jackandtheblockstalk.eth' target='blank'>jackandtheblockstalk.eth</a></h4>\
   <div align='center'>\
     <div class='row'>\
       <div class='col-md-4'>\
@@ -34,8 +34,8 @@ const BLOCK1_BODY = "<h4><a href='mailto:jack@jackandtheblockstalk.com'>jack@jac
 
 const BLOCK2_BODY = "<h4>Senior Software Engineer, <a href='https://indorse.io/' target='blank'>Indorse</a></h4>\
   <h4>Colaborator, <a href='https://www.theblockchainconnector.com/' target='blank'>The Blockchain Connector</a></h4>\
-  <h4>Blockchain Consultant, <a href='https://rockchain.com/' target='blank'>Rockchain</a></h4>\
-  <h4>Blockchain Consultant, <a href='https://avancehub.com/' target='blank'>AvanceHub</a></h4>\
+  <h4>Advisor, <a href='https://smartcryptoindex.com/' target='blank'>Smart Crypto Index</a></h4>\
+  <h4>Advisor, <a href='https://workonblockchain.com/' target='blank'>Work on Blockchain</a></h4>\
   <h4>Creator, <a href='https://intercrypto.org' target='blank'>InterCrypto</a></h4>\
   <h4><br></h4>";
 
