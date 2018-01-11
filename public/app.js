@@ -104,10 +104,13 @@ function makeBlock(i) {
         // Set the title box with 0 nonce and previous hash
         var titleData;
         if (i == 0)
-          titleData = "<div class='box-title'><h2 align='center' class='box-title'><br></h2></div><span class='light-text'>Previous Hash: <span class='prev-hash'>" + PREVIOUS_HASH_0 + "</span><br>Nonce: <span class='nonce'>0</span><span>";
+          titleData = "<div class='box-title'><h2 align='center' class='box-title'><br></h2></div><span class='light-text'>\
+            Previous Hash: <span class='prev-hash'>" + PREVIOUS_HASH_0 + "</span><br>Nonce: <span class='nonce'>0</span><span>";
         else {
-          var prevHash = $(jname + ' .final-hash').text();
-          titleData = "<div class='box-title'><h2 align='center' class='box-title'><br></h2></div><span class='light-text'>Previous Hash: <span class='prev-hash'>" + prevHash + "</span><br>Nonce: <span class='nonce'>0</span><span>";
+          let jnamePrev = '#' + blockdata[i-1].name
+          var prevHash = $(jnamePrev + ' .final-hash').text();
+          titleData = "<div class='box-title'><h2 align='center' class='box-title'><br></h2></div><span class='light-text'>\
+            Previous Hash: <span class='prev-hash'>" + prevHash + "</span><br>Nonce: <span class='nonce'>0</span><span>";
         }
         $(jname + ' .block-title-box').html(titleData);
         // Set the final box with dummy final hash
