@@ -3,7 +3,7 @@ const BLOCK1_BODY = "<h4><a href='mailto:jack@jackandtheblockstalk.com'>jack@jac
   <h4>Ethereum: <a href='https://etherscan.io/address/jackandtheblockstalk.eth' target='blank'>jackandtheblockstalk.eth</a></h4>\
   <div align='center'>\
     <div class='row'>\
-      <div class='col-md-4'>\
+      <div class='col-md-3'>\
         <div class='row'>\
           <a href='https://www.linkedin.com/in/jack-tanner/' target='blank'><img src='img/linkedin-logo.png' style='height:60px;'></a> \
         </div>\
@@ -11,7 +11,7 @@ const BLOCK1_BODY = "<h4><a href='mailto:jack@jackandtheblockstalk.com'>jack@jac
           <h5><a href='https://www.linkedin.com/in/jack-tanner/' target='blank'>LinkedIn</a></h5>\
         </div>\
       </div>\
-      <div class='col-md-4'>\
+      <div class='col-md-3'>\
         <div class='row'>\
           <a href='https://github.com/jackandtheblockstalk' target='blank'><img src='img/github-logo.png' style='height:60px;'></a>\
         </div>\
@@ -19,12 +19,20 @@ const BLOCK1_BODY = "<h4><a href='mailto:jack@jackandtheblockstalk.com'>jack@jac
           <h5><a href='https://github.com/jackandtheblockstalk' target='blank'>Github</a></h5>\
         </div>\
       </div>\
-      <div class='col-md-4'>\
+      <div class='col-md-3'>\
         <div class='row'>\
-          <a href='https://medium.com/@ugmo04' target='blank'><img src='img/medium-logo.png' style='height:60px;'></a>\
+          <a href='https://twitter.com/@theblockstalk' target='blank'><img src='img/twitter.png' style='height:60px;'></a>\
         </div>\
         <div class='row'>\
-          <h5><a href='https://medium.com/@ugmo04' target='blank'>Blog</a></h5>\
+          <h5><a href='https://twitter.com/@theblockstalk' target='blank'>Twitter</a></h5>\
+        </div>\
+      </div>\
+      <div class='col-md-3'>\
+        <div class='row'>\
+          <a href='https://medium.com/@theblockstalk' target='blank'><img src='img/medium-logo.png' style='height:60px;'></a>\
+        </div>\
+        <div class='row'>\
+          <h5><a href='https://medium.com/@theblockstalk' target='blank'>Blog</a></h5>\
         </div>\
       </div>\
     </div>\
@@ -34,8 +42,8 @@ const BLOCK1_BODY = "<h4><a href='mailto:jack@jackandtheblockstalk.com'>jack@jac
 
 const BLOCK2_BODY = "<h4>Senior Software Engineer, <a href='https://indorse.io/' target='blank'>Indorse</a></h4>\
   <h4>Colaborator, <a href='https://www.theblockchainconnector.com/' target='blank'>The Blockchain Connector</a></h4>\
-  <h4>Advisor, <a href='https://smartcryptoindex.com/' target='blank'>Smart Crypto Index</a></h4>\
-  <h4>Advisor, <a href='https://workonblockchain.com/' target='blank'>Work on Blockchain</a></h4>\
+  <h4>Colaborator, <a href='https://smartcryptoindex.com/' target='blank'>Smart Crypto Index</a></h4>\
+  <h4>Colaborator, <a href='https://workonblockchain.com/' target='blank'>Work on Blockchain</a></h4>\
   <h4>Creator, <a href='https://intercrypto.org' target='blank'>InterCrypto</a></h4>\
   <h4><br></h4>";
 
