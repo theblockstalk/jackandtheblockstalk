@@ -1,6 +1,5 @@
 
 const BLOCK1_BODY = "<h4><a href='mailto:jack@jackandtheblockstalk.com'>jack@jackandtheblockstalk.com</a></h4>\
-  <h4>Ethereum: <a href='https://etherscan.io/address/jackandtheblockstalk.eth' target='blank'>jackandtheblockstalk.eth</a></h4>\
   <div align='center'>\
     <div class='row'>\
       <div class='col-md-3'>\
@@ -40,19 +39,17 @@ const BLOCK1_BODY = "<h4><a href='mailto:jack@jackandtheblockstalk.com'>jack@jac
   <!-- <h4><br></h4> -->\
   <h6><br></h6>";
 
-const BLOCK2_BODY = "<h4>Senior Software Engineer, <a href='https://indorse.io/' target='blank'>Indorse</a></h4>\
-  <h4>Colaborator, <a href='https://www.theblockchainconnector.com/' target='blank'>The Blockchain Connector</a></h4>\
-  <h4>Colaborator, <a href='https://smartcryptoindex.com/' target='blank'>Smart Crypto Index</a></h4>\
-  <h4>Colaborator, <a href='https://workonblockchain.com/' target='blank'>Work on Blockchain</a></h4>\
-  <h4>Creator, <a href='https://intercrypto.org' target='blank'>InterCrypto</a></h4>\
+const BLOCK2_BODY = "<h4>CTO and Educator, <a href='https://workonblockchain.com/' target='blank'>Work on Blockchain</a></h4>\
+  <h4>Visionary, <a href='https://bit.ly/digitalSociety' target='blank'>Decentralized Digital Society</a></h4>\
+  <h4>Member and fan, <a href='https://bbfta.org/' target='blank'>BBFTA</a>, <a href='https://primalbase.com' target='blank'>Primalbase</a>, <a href='https://blockdam.nl' target='blank'>Blockdam</a></h4>\
+  <h4>Creator, <a href='https://intercrypto.org' target='blank'>Intercrypto</a></h4>\
   <h4><br></h4>";
 
-const BLOCK3_BODY = "<h4>Smart Contract Development</h4>\
+const BLOCK3_BODY = "<h4>Smart contract development</h4>\
   <h4>Presentations</h4>\
-  <h4>Workshops</h4>\
-  <h4>Cryptocurrency Consulting</h4>\
-  <h4>Blockchain Research</h4>\
-  <h4>Project Management</h4>";
+  <h4>Technical workshops</h4>\
+  <h4>Blockchain research</h4>\
+  <h4>Project/product management</h4>";
 
 const PREVIOUS_HASH_0 = "0000000000";
 const blockdata = [
