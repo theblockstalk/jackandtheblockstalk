@@ -1,5 +1,5 @@
 
-const BLOCK1_BODY = "<h4><a href='mailto:jack@jackandtheblockstalk.com'>jack@jackandtheblockstalk.com</a></h4>\
+const BLOCK1_BODY = "
   <div align='center'>\
     <div class='row'>\
       <div class='col-md-3'>\
