@@ -41,7 +41,7 @@ const BLOCK1_BODY = `
 const BLOCK2_BODY = `
   <h4>Blockchain developer at <a href='https://atos.net/nl/nederland/atos-blockchain-factory' target='blank'>Atos Blockchain Factory</a></h4>\
   <h4>Visionary of <a href='https://bit.ly/digitalSociety' target='blank'>Digital Societies</a></h4>\
-  <h4>Contributor to <a href='https://eos.io' target='blank'>EOSIO software community</a></h4>\
+  <h4>Contributor to <a href='https://medium.com/coinmonks/difference-between-eosio-software-and-eos-blockchain-13bcc57d1d9d' target='blank'>EOSIO software community</a></h4>\
   <h4>Critically thinking about <a href='https://medium.com/@theblockstalk/the-biggest-problems-of-bitcoin-that-people-are-not-speaking-about-8ce2493e9609' target='blank'>Cryptocurrencies</a></h4>\
   <h4><br></h4>`;
 
