@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <head>
+
+<head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
@@ -13,14 +14,14 @@
 
     <!-- Google Structured Data -->
     <script type="application/ld+json">
-    {
-      "@context": "https://jackandtheblockstalk.com/",
-      "@type": "Website",
-      "name": "Jack Tanner | Blockchain Developer and Cryptocurrency Specialist",
-      "author": "Jack Tanner",
-      "image": "https://jackandtheblockstalk.com/img/jack-tanner.jpg",
-      "description": "My personal blockchain information website. Contact me, find my blogs and discover what I work on.",
-    }
+        {
+            "@context": "https://jackandtheblockstalk.com/",
+            "@type": "Website",
+            "name": "Jack Tanner | Blockchain Developer and Solutions",
+            "author": "Jack Tanner",
+            "image": "https://jackandtheblockstalk.com/img/jack-tanner.jpg",
+            "description": "Blockchain application developer and architect. Contact me, find my blogs and discover what I work on.",
+        }
     </script>
 
     <title>Jack Tanner | Blockchain Developer and Cryptocurrency Specialist</title>
@@ -44,167 +45,159 @@
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107852416-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-107852416-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-107852416-1');
     </script>
 
 
-  </head>
-  <body id='page-top' onload='blockchain()'>
+</head>
+
+<body id='page-top' onload='blockchain()'>
 
     <div class='container-fluid'>
-      <div class='row'>
-          <div class='panel-body' align='center'>
-              <font color="white">
-                <h1><b>Jack and the Blockstalk</b></h1>
-                <h2><b>aka Jack Tanner</b></h2>
-            </font>
-          </div>
-        <!-- <div class='col-md-3'>
-        </div>
-        <div class='col-md-4'>
-
-          <!-- <div class='panel panel-default top-heading'>
-            <div class='panel-body' align='center' color='white'>
-              <h1><b>Jack and the Blockstalk</b></h1>
-              <h2><b>aka Jack Tanner</b></h2>
+        <div class='row'>
+            <div class='panel-body' align='center'>
+                <font color="white">
+                    <h1><b>Jack and the Blockstalk</b></h1>
+                </font>
             </div>
-          </div> -->
-        </div> -->
-      </div>
+        </div>
     </div>
 
     <div id='app' class='container-fluid'>
         <div class='row'>
 
-          <div class='col-md-4'>
-            <div id='block0' class='panel panel-default block-main' style='display:none;'>
+            <div class='col-md-4'>
+                <div id='block0' class='panel panel-default block-main' style='display:none;'>
 
-              <div class='panel-body'>
-                <span class='light-text'>BLOCK HEADER</span>
-                <div class='panel panel-default block-section'>
-                  <div class='panel-body block-title-box'>
-                    <div class='box-title'>
-                      <h2 align='center'><br></h2>
+                    <div class='panel-body'>
+                        <span class='light-text'>BLOCK HEADER</span>
+                        <div class='panel panel-default block-section'>
+                            <div class='panel-body block-title-box'>
+                                <div class='box-title'>
+                                    <h2 align='center'><br></h2>
+                                </div>
+                                <span><br><br><br></span>
+                            </div>
+                        </div>
                     </div>
-                    <span><br><br><br></span>
-                  </div>
-                </div>
-              </div>
 
-              <div class='panel-body'>
-                <span class='light-text'>TRANSACTIONS</span>
-                <div class='panel panel-default block-section'>
-                  <div class='panel-body block-body-box' align='center'>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                  </div>
-                </div>
-              </div>
-
-              <div class='panel-body'>
-                <span class='light-text'>FINAL HASH</span>
-                <div class='panel panel-default block-section'>
-                  <div class='panel-body block-final-box'>
-                    <br>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class='col-md-4'>
-            <div id='block1' class='panel panel-default block-main' style='display:none;'>
-
-              <div class='panel-body'>
-                <span class='light-text'>BLOCK HEADER</span>
-                <div class='panel panel-default block-section'>
-                  <div class='panel-body block-title-box'>
-                    <div class='box-title'>
-                      <h2 align='center'><br></h2>
+                    <div class='panel-body'>
+                        <span class='light-text'>TRANSACTIONS</span>
+                        <div class='panel panel-default block-section'>
+                            <div class='panel-body block-body-box' align='center'>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                            </div>
+                        </div>
                     </div>
-                    <span><br><br><br></span>
-                  </div>
-                </div>
-              </div>
 
-              <div class='panel-body'>
-                <span class='light-text'>TRANSACTIONS</span>
-                <div class='panel panel-default block-section'>
-                  <div class='panel-body block-body-box' align='center'>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                  </div>
-                </div>
-              </div>
-
-              <div class='panel-body'>
-                <span class='light-text'>FINAL HASH</span>
-                <div class='panel panel-default block-section'>
-                  <div class='panel-body block-final-box'>
-                    <br>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class='col-md-4'>
-            <div id='block2' class='panel panel-default block-main' style='display:none;'>
-
-              <div class='panel-body'>
-                <span class='light-text'>BLOCK HEADER</span>
-                <div class='panel panel-default block-section'>
-                  <div class='panel-body block-title-box'>
-                    <div class='box-title'>
-                      <h2 align='center'><br></h2>
+                    <div class='panel-body'>
+                        <span class='light-text'>FINAL HASH</span>
+                        <div class='panel panel-default block-section'>
+                            <div class='panel-body block-final-box'>
+                                <br>
+                            </div>
+                        </div>
                     </div>
-                    <span><br><br><br></span>
-                  </div>
-                </div>
-              </div>
 
-              <div class='panel-body'>
-                <span class='light-text'>TRANSACTIONS</span>
-                <div class='panel panel-default block-section'>
-                  <div class='panel-body block-body-box' align='center'>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                    <h4><br></h4>
-                  </div>
                 </div>
-              </div>
-
-              <div class='panel-body'>
-                <span class='light-text'>FINAL HASH</span>
-                <div class='panel panel-default block-section'>
-                  <div class='panel-body block-final-box'>
-                    <br>
-                  </div>
-                </div>
-              </div>
-
             </div>
-          </div>
+
+            <div class='col-md-4'>
+                <div id='block1' class='panel panel-default block-main' style='display:none;'>
+
+                    <div class='panel-body'>
+                        <span class='light-text'>BLOCK HEADER</span>
+                        <div class='panel panel-default block-section'>
+                            <div class='panel-body block-title-box'>
+                                <div class='box-title'>
+                                    <h2 align='center'><br></h2>
+                                </div>
+                                <span><br><br><br></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='panel-body'>
+                        <span class='light-text'>TRANSACTIONS</span>
+                        <div class='panel panel-default block-section'>
+                            <div class='panel-body block-body-box' align='center'>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='panel-body'>
+                        <span class='light-text'>FINAL HASH</span>
+                        <div class='panel panel-default block-section'>
+                            <div class='panel-body block-final-box'>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class='col-md-4'>
+                <div id='block2' class='panel panel-default block-main' style='display:none;'>
+
+                    <div class='panel-body'>
+                        <span class='light-text'>BLOCK HEADER</span>
+                        <div class='panel panel-default block-section'>
+                            <div class='panel-body block-title-box'>
+                                <div class='box-title'>
+                                    <h2 align='center'><br></h2>
+                                </div>
+                                <span><br><br><br></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='panel-body'>
+                        <span class='light-text'>TRANSACTIONS</span>
+                        <div class='panel panel-default block-section'>
+                            <div class='panel-body block-body-box' align='center'>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                                <h4><br></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='panel-body'>
+                        <span class='light-text'>FINAL HASH</span>
+                        <div class='panel panel-default block-section'>
+                            <div class='panel-body block-final-box'>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
 
         </div>
 
-      </div>
+    </div>
 
-  </body>
+</body>
