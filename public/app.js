@@ -39,19 +39,19 @@ const BLOCK1_BODY = `
   <h6><br></h6>`;
 
 const BLOCK2_BODY = `
-  <h4>Founder and architectat at <a href='https://tonomy.foundation/' target='blank'>Tonomy Foundation</a></h4>\
+  <h4>Founder and architect at <a href='https://pangea.web4.world/' target='blank'>Pangea Virtual Nation</a></h4>\
+  <h4>Founder and CTO at <a href='https://tonomy.foundation/' target='blank'>Tonomy Foundation</a></h4>\
   <h4>Consultant at <a href='https://jackandtheblockstalk.com' target='blank'>Jack and the Blockstalk</a></h4>\
-  <h4>Community contributor of <a href='https://medium.com/coinmonks/difference-between-eosio-software-and-eos-blockchain-13bcc57d1d9d' target='blank'>EOSIO technology community</a></h4>\
   <h4>Critically thinking about <a href='https://medium.com/@theblockstalk/the-biggest-problems-of-bitcoin-that-people-are-not-speaking-about-8ce2493e9609' target='blank'>Cryptocurrencies</a></h4>\
   <h4><a href='https://docs.google.com/spreadsheets/d/1luYLBlLQ9AuExOgBlUyqWBT-Sds0Ce4L4eNs_hbtijo/edit?usp=sharing' target='blank'>My project portfolio</a></h4>
   `;
 
 const BLOCK3_BODY = `
-  <h4>Digital identity and governace</h4>\
-<h4>Blockchain app architecture</h4>\
-<h4>Technical workshops</h4>\
-<h4>Cryptography and other technical research</h4>\
-<h4>Project/product management</h4>`;
+  <h4>Digital identity and governance</h4>\
+  <h4>Blockchain app architecture</h4>\
+  <h4>Technical workshops</h4>\
+  <h4>Cryptography and other technical research</h4>\
+  <h4>Project/product management</h4>`;
 
 const PREVIOUS_HASH_0 = "0000000000";
 const blockdata = [{
